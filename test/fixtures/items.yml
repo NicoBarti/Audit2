@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  i1: 1
+  i2: 1
+  i3: 1
+  total: 1
+
+two:
+  i1: 1
+  i2: 1
+  i3: 1
+  total: 1
