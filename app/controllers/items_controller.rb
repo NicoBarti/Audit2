@@ -25,7 +25,7 @@ class ItemsController < ApplicationController
   # POST /items.json
   def create
     @item = Item.new(i1: params[:i1], i2: params[:i2], i3: params[:i3])
-    @item.total = @item.i1 + @item.i2 + @item.i3
+    @item.total = @item.i1.to_i + @item.i2.to_i + @item.i3.to_i
     # raise params[:item].inspect
 
     respond_to do |format|
