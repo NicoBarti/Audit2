@@ -1,8 +1,21 @@
+/*Encabezado*/
 
 .navbar{
 	background-color: white;
 	color: green;
+
 }
+
+.navbar-brand {
+	font-size: 3em;
+}
+
+.navbar-brand img{
+	width: 100px; 
+	height: 100px;
+}
+
+/*Cuerpo*/
 
 .jumbotron{
 	background-color: #ccff99;
@@ -15,8 +28,14 @@
 
 .form-group label{
 	margin-top: 20px;
-	font-size: 1.3em;
+	font-size: 2.5em;
+	font-weight: bold;
 }
+
+
+
+
+/*Inteneto de glyphycins*/
 
 @font-face {
   font-family: 'Glyphicons Halflings';
