@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Audit2</title>
+    <title>Audit</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
@@ -9,6 +9,45 @@
   </head>
 
   <body>
+<!-- Image and text -->
+<nav class="navbar navbar-light bg-faded">
+    <a class="navbar-brand" href="#" style="font-size: 2em;">
+      <img src=<%= image_url "footer-mutualseguridad.png" %> width="50" height="50" class="d-inline-block align-top" alt="">
+    Intervenciones Breves
+    </a>
+<span class="text-left pull-left" >
+    Usuario
+  </span>
+
+</nav>
+
+
+
     <%= yield %>
+
+<footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span>Versión:</span><br>
+          1.0 <br>
+          En construcción<br>
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Proyecto:</span><br>
+          Intervención Breve vía Internet<br>
+          Basado en AUDIT y AUDIT-BI
+          <hr class="visible-xs">
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p>"Esta app ha sido desarrollada para detectar confidencialmente el uso excesivo de alcohol y proveer ayuda oportuna"</p>
+          
+        </section>
+      </div>
+      <div class="text-center">&copy; Proyecto SUCESO Poblete - Barticevic</div>
+    </div>
+  </footer>
+
   </body>
 </html>

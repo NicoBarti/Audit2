@@ -1,0 +1,28 @@
+
+.navbar{
+	background-color: white;
+	color: green;
+}
+
+.jumbotron{
+	background-color: #ccff99;
+}
+
+#tragos img{
+	height: 200px;
+	margin: 5px;
+}
+
+.form-group label{
+	margin-top: 20px;
+	font-size: 1.3em;
+}
+
+@font-face {
+  font-family: 'Glyphicons Halflings';
+  src: assets-path('glyphicons-halflings-regular.eot');
+  src: assets-path('glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
+    assets-path('glyphicons-halflings-regular.woff') format('woff'), 
+    assets-path('glyphicons-halflings-regular.ttf') format('truetype'), 
+    assets-path('glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+};
