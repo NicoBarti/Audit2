@@ -1,13 +1,18 @@
 
+<div class="container" ></div>
+ <div class="row">
+  <div class="col-lg-2 col-md-2" ></div>
+  <div class="col-lg-8 col-md-8">
+	<div class="jumbotron">
+ 	 <h1>Cuestionario Breve</h1>
+ 	 <p class="lead"><h3>Contesta estas preguntas sobre tu consumo de bebidas alcoholicas <b> durante el último año</b></h3></p>
 
-<div class="jumbotron">
-  <h3 class="display-3">Cuestionario Breve</h3>
-  <p class="lead"><h1>Contesta estas preguntas sobre tu consumo de bebidas alcoholicas <b> durante el último año</b></h1></p>
-  <hr class="my-2">
+		<%= render 'form', item: @item %>
 
-<%= render 'form', item: @item %>
+		<%= link_to 'Volver', items_path %>
 
-<%= link_to 'Volver', items_path %>
-
+	</div>
+   </div> <!-- Cierra col -->
+ </div> <!-- cierra row -->
 </div>
-
+<div> <!-- cierra conrainer -->

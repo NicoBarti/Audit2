@@ -1,9 +1,14 @@
 /*Encabezado*/
 
 .navbar{
-	background-color: white;
-	color: green;
+	background-color: #b3d9ff;
+	text-decoration-color: white;
+	color: white;
 
+}
+
+body{
+	background-color: #ccffe6
 }
 
 .navbar-brand {
@@ -15,10 +20,20 @@
 	height: 100px;
 }
 
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+.lead{
+	color: #ff4441;
+}
+
 /*Cuerpo*/
 
 .jumbotron{
-	background-color: #ccff99;
+
+	background-color: #134d00;
+	color: white;
 }
 
 #tragos img{
@@ -28,11 +43,16 @@
 
 .form-group label{
 	margin-top: 20px;
-	font-size: 2.5em;
 	font-weight: bold;
 }
 
 
+
+/*Pie de página*/
+footer{
+	color: white;
+	background-color: black;
+}
 
 
 /*Inteneto de glyphycins*/

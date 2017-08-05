@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Sexo:</strong>
+  <%= @perfil.sexo %>
+</p>
+
+<p>
+  <strong>F nac:</strong>
+  <%= @perfil.f_nac %>
+</p>
+
+<p>
+  <strong>Usuario:</strong>
+  <%= @perfil.usuario %>
+</p>
+
+<%= link_to 'Edit', edit_perfil_path(@perfil) %> |
+<%= link_to 'Back', perfils_path %>
